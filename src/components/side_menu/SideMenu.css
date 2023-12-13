@@ -1,0 +1,40 @@
+
+.side-menu {
+    padding: 5px 10px 0 10px;
+    width: 200px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 100% ;
+    display:flex;
+    flex-flow: column;
+    position: fixed;
+}
+
+.side-menu-tile {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.side-menu-tile-selected {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    background-color: #f0f0f0;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.side-menu-tile-selected > img {
+    width: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.side-menu-tile > img {
+    width: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
