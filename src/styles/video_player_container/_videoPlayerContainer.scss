@@ -1,0 +1,34 @@
+
+.videoplayer-container{
+    display: flex;
+    width: 84vw;
+    overflow-y: auto;
+
+    
+}
+
+.videoplayer-box{
+    width: 60vw;
+
+
+    iframe{
+        width: 58vw;
+        height: 32vw;
+        
+    }
+}
+
+.video-suggestion-card{
+    width: 24vw;
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    img {
+        width: 10vw;
+        border-radius: 10px;
+        margin-right: 10px;
+    
+    }
+}
+

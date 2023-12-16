@@ -134,4 +134,30 @@
 .video-card img {
   width: 26.6666666667vw;
   border-radius: 20px;
+}
+
+.videoplayer-container {
+  display: flex;
+  width: 84vw;
+  overflow-y: auto;
+}
+
+.videoplayer-box {
+  width: 60vw;
+}
+.videoplayer-box iframe {
+  width: 58vw;
+  height: 32vw;
+}
+
+.video-suggestion-card {
+  width: 24vw;
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.video-suggestion-card img {
+  width: 10vw;
+  border-radius: 10px;
+  margin-right: 10px;
 }/*# sourceMappingURL=index.css.map */
