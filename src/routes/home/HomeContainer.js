@@ -1,7 +1,7 @@
 import React from 'react'
-import VideoList from './VideoList'
-import SuggestionButtonList from './SuggestionButtonList'
-import './Home.css';
+import SuggestionButtonList from '../../components/home/SuggestionButtonList'
+import VideoList from '../../components/home_videos/VideoList' 
+
 
 const HomeContainer = () => {
   return (

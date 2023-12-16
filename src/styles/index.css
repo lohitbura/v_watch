@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+  font-family: sans-serif;
+}
+
+.body-content {
+  display: flex;
+}
+
+.header {
+  background-color: #ffffff;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  height: 8vh;
+}
+
+.header-first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-menu-img {
+  width: 20px;
+  margin: 0 15px 0 0;
+}
+
+.header-logo-img {
+  width: 35px;
+}
+
+.header-search {
+  align-items: center;
+}
+.header-search input {
+  border-radius: 10px 0px 0px 10px;
+  height: 35px;
+  width: 350px;
+  border-width: 1px;
+  border-color: #f0f0f0;
+  border-style: solid;
+}
+.header-search button {
+  border-radius: 0px 10px 10px 0px;
+  height: 35px;
+  width: 50px;
+  border-width: 1px 1px 1px 0px;
+  border-color: #f0f0f0;
+  border-style: solid;
+}
+
+.side-menu {
+  overflow-y: auto;
+  height: 92vh;
+  width: 14vw;
+  align-items: center;
+  padding: 0 5px;
+}
+.side-menu .side-menu-tile {
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+  cursor: pointer;
+}
+.side-menu .side-menu-tile-selected {
+  display: flex;
+  background-color: #f0f0f0;
+  align-items: center;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.side-menu img {
+  width: 25px;
+  margin: 0 3px 0 0;
+}
+
+.home-container {
+  width: 86vw;
+  height: 92vh;
+}
+
+.suggestion-button-list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 86vw;
+  overflow-x: auto;
+  margin: 0 0 5px 5px;
+  scrollbar-width: 0;
+}
+.suggestion-button-list::-webkit-scrollbar {
+  display: none;
+}
+
+.home-video-list {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  height: 92vh;
+  justify-content: center;
+  padding: 20px 0 30px 0;
+}
+
+.suggestion-button {
+  display: flex;
+  min-width: 60px;
+  min-width: 25px;
+  border-radius: 5px;
+  border-color: #f0f0f0;
+  background-color: #f0f0f0;
+  color: #000000;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  flex: 0 0 auto;
+  margin-inline: 3px;
+  font-weight: 600;
+}
+
+.video-card {
+  margin: 0 20px 20px 0;
+  width: 26.6666666667vw;
+  cursor: pointer;
+}
+.video-card img {
+  width: 26.6666666667vw;
+  border-radius: 20px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,46 @@
+@use "sass:math";
+
+.home-container{
+    width: 86vw;
+    height: 92vh;
+}
+
+.suggestion-button-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 86vw;
+    overflow-x: auto;
+    margin: 0 0 5px 5px;
+    scrollbar-width: 0;
+    
+    &::-webkit-scrollbar{
+        display: none
+    }
+    
+}
+
+.home-video-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 92vh;
+    justify-content: center;
+    padding : 20px 0 30px 0
+}
+
+.suggestion-button{
+    @include button(60px, 25px,4px 10px,5px, $disableColor, $disableColor, $blackColor);
+    margin-inline: 3px;
+    font-weight: 600;
+}
+
+.video-card {
+    margin: 0 20px 20px 0;
+    width: math.div(80vw,3);
+    cursor: pointer;
+    img {
+        width: math.div(80vw,3);
+        border-radius: 20px;
+    }
+}

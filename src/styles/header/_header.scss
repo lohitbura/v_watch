@@ -1,0 +1,48 @@
+
+.header {
+    background-color: $whiteColor;
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    height: 8vh;
+}
+
+
+.header-first {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-menu-img {
+    width: 20px;
+    margin: 0 15px 0 0;
+}
+
+.header-logo-img {
+    width: 35px;
+}
+
+.header-search {
+    align-items: center;
+  
+    input {
+        border-radius: 10px 0px 0px 10px;
+        height: 35px;
+        width: 350px;
+        border-width: 1px;
+        border-color: $disableColor;
+        border-style: solid;
+    }
+    button {
+        border-radius: 0px 10px 10px 0px;
+        height: 35px;
+        width: 50px;
+        border-width: 1px 1px 1px 0px;
+        border-color: $disableColor;
+        border-style: solid;
+    }
+}
