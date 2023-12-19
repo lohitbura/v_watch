@@ -1,0 +1,19 @@
+.comment-list {
+    margin: 20px;    
+}
+
+.comment-card {
+    display: flex;
+    margin-top: 20px;
+
+    img{
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

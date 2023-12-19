@@ -2,17 +2,19 @@ import React from 'react'
 import useVideosList from '../../hooks/useVideosList'
 import VideoSuggestionCard from './VideoSuggestionCard';
 import { useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { updateVideoPlayerData } from '../../store/videoPlayerSlice';
 
 const VideoSuggestion = () => {
 
     const videoList = useVideosList();
-    const navigate = useNavigate();
+    const dispatch = useDispatch();
     if(!videoList){
       return <div>Loading</div>
     }
   
     const handleOnTap = (data)=>{
-      navigate('/videoPlayer');
+      dispatch(updateVideoPlayerData(data));
     }
 
   return (

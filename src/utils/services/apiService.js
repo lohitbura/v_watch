@@ -20,7 +20,8 @@ const handleResponse = async(response)=>{
       try {
         return await response.json();
       } catch (error) {
-        return response;
+        return Error(error);
+      
       }
 }
 

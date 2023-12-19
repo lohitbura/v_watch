@@ -139,6 +139,7 @@
 .videoplayer-container {
   display: flex;
   width: 84vw;
+  height: 92vh;
   overflow-y: auto;
 }
 
@@ -160,4 +161,22 @@
   width: 10vw;
   border-radius: 10px;
   margin-right: 10px;
+}
+
+.comment-list {
+  margin: 20px;
+}
+
+.comment-card {
+  display: flex;
+  margin-top: 20px;
+}
+.comment-card img {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.comment-card p {
+  font-size: 14px;
 }/*# sourceMappingURL=index.css.map */

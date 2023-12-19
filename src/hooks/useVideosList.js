@@ -20,7 +20,6 @@ const useVideosList = () => {
         regionCode:'IN',
         key: appStringConstants.googleApiKey
     })
-    console.log(data);
     setVideosList(data);
     }
 
